@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+body{
+	margin:0;
+	background: #333;
+}
+i{
+	color: #ff9800;
+	font-size: 32px!important;
+	float: right;
+	padding: 40px;
+} 
+i:hover{
+	color: #ffaa0e;
+	font-size: 34px;
+	opacity: 0.8;
+}
+.icon2{
+	color: white!important;
+}
+.menu-hamburguesa ul{
+	display: none;
+	width: 100%;
+	background-color: rgba(255, 82, 0, 0.76);
+	color: white;
+	text-align: center;
+	padding: 220px 0;
+	margin: 0;
+	margin-top: 107px;
+}
+.menu-hamburguesa ul li{
+	display: block;
+	padding-bottom:40px;
+	font-size: 40px;
+	font-weight: 700;
+	font-family: Lato Black;
+	letter-spacing: -1.2px;
+}
+.menu-hamburguesa ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu-hamburguesa ul li a:hover{
+	text-decoration: underline;
+}
+.showitem{
+	display: block!important;
+}
